@@ -4,23 +4,23 @@ export function NavApp(){
     $navapp.className="navbar navbar-expand-lg navbar-dark bg-primary";
     $navapp.innerHTML=`
     <div class="container-fluid">
-      <a class="navbar-brand" href="#">CALCULO DE JUBILACION ONSEC'</a>
+      <a class="navbar-brand" href="#">CALCULO DE JUBILACION ONSEC</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse">
         <ul class="navbar-nav me-auto">
           <li class="nav-item">
-            <a class="nav-link" href="#/products">Productos</a>
+            <a class="nav-link" href="#/products">SERVICIOS</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link nproduct" id="n-product">Nuevo Producto</a>
+            <a class="nav-link nproduct" id="n-product">NUEVO INGRESO</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link nproduct" id="n-user">Usuarios</a>
+            <a class="nav-link nproduct" id="n-user">USUARIOS</a>
           </li>
           <li class="nav-item">
-          <a class="nav-link" href="#/empleados">empleados</a>
+          <a class="nav-link" href="#/empleados">EMPLEADOS JUBILADOS</a>
           </li>
 
         </ul>

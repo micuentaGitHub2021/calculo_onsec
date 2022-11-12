@@ -24,11 +24,11 @@ class UiEmpleados{
             <div class="contentBx">
                 <b><h3>${el.name}</h3></b>
                 <p>${el.dpi}</p>
-                <b><span class="price">Promedio 1er año.:${el.p1} </span></b>
-                <b><span class="price">Promedio 2do año.:${el.p2} </span></b>
-                <b><span class="price">Promedio 3er año.:${el.p3} </span></b>
-                <b><span class="price">Promedio 4to año.:${el.p4} </span></b>
-                <b><span class="price">Promedio 5to año.:${el.p5} </span></b>
+                <b><span class="price">Sueldo Promedio 1er año.:${el.p1} </span></b>
+                <b><span class="price">Sueldo Promedio 2do año.:${el.p2} </span></b>
+                <b><span class="price">Sueldo Promedio 3er año.:${el.p3} </span></b>
+                <b><span class="price">Sueldo Promedio 4to año.:${el.p4} </span></b>
+                <b><span class="price">Sueldo Promedio 5to año.:${el.p5} </span></b>
                 <b><span class="price">Tiempo.:${el.tiempo_trabajo} </span></b>
                 <b><span class="price">jubilacion.:${el.jbl} </span></b>
                 <div class="option-card">
@@ -50,9 +50,9 @@ class UiEmpleados{
             this.toastNotification("success",res.msg)
         }).catch(err=>{
             console.log(err)
-            this.toastNotification("error","Al registrar producto")
+            this.toastNotification("error","Al registrar Empleado")
         })
-    }
+    }z
 
     deleteEmpleado(idempleado){
         const conf =confirm("Desea Eliminar al empleado ?");

@@ -3,7 +3,7 @@ export function User() {
     $userContainer.classList.add("home-user")
     $userContainer.innerHTML=`
     <div class="page-title animated fadeInDown">
-        <h3>Usuarios</h3>
+        <h3>USUARIOS CONSEC</h3>
     </div>
     <div class="home-sigin animated fadeInDown">
     <div>

@@ -130,7 +130,7 @@ body{
 }
 .card-product .contentBx h3{
     font-size: 20px;
-    color: black;
+    color: rgb(42, 40, 40);
 }
 
 .card-product .option-card{
@@ -144,5 +144,6 @@ body{
 }
 .container-empleado {
     display:grid;
-    grid-template-columns: 50% 50%; 
+    grid-template-columns:50% 50%; 
+   
 }

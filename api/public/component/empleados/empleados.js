@@ -20,23 +20,23 @@ export function Empleados() {
             <input type="text" class="form-control" id="f-dpi" placeholder="Igrese 13 datos">
         </div>
         <div class="form-group">
-            <label for="f-p1" class="form-label mt-4">Promedio mensual 1er anio:</label>
+            <label for="f-p1" class="form-label mt-4">Sueldo Promedio mensual 1er año:</label>
             <input type="number" class="form-control" id="f-p1">
         </div>
         <div class="form-group">
-        <label for="f-p2" class="form-label mt-4">Promedio mensual 2do anio:</label>
+        <label for="f-p2" class="form-label mt-4">Sueldo Promedio mensual 2do año:</label>
         <input type="number" class="form-control" id="f-p2">
         </div>
         <div class="form-group">
-        <label for="f-p3" class="form-label mt-4">Promedio mensual 3er anio:</label>
+        <label for="f-p3" class="form-label mt-4">Sueldo Promedio mensual 3er año:</label>
         <input type="number" class="form-control" id="f-p3">
         </div>
         <div class="form-group">
-        <label for="f-p4" class="form-label mt-4">Promedio mensual 4to anio:</label>
+        <label for="f-p4" class="form-label mt-4">Sueldo Promedio mensual 4to año:</label>
         <input type="number" class="form-control" id="f-p4">
         </div>
         <div class="form-group">
-        <label for="f-p5" class="form-label mt-4">Promedio mensual 5to anio:</label>
+        <label for="f-p5" class="form-label mt-4">Sueldo Promedio mensual 5to año:</label>
         <input type="number" class="form-control" id="f-p5">
         </div>
         <div class="form-group">
