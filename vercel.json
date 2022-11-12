@@ -2,26 +2,26 @@
   "version": 2,
   "builds": [
       {
-          "src": "backend/index.js",
+          "src": "back-end/index.js",
           "use": "@now/node"
       }
   ],
   "routes": [
     {
       "src": "/",
-      "dest": "/backend/index.js"
+      "dest": "/back-end/index.js"
     },
     {
       "src": "/api/v1/user(.*)",
-      "dest": "/backend/index.js"
+      "dest": "/back-end/index.js"
     },
     {
       "src": "/api/v1/product(.*)",
-      "dest": "/backend/index.js"
+      "dest": "/back-end/index.js"
     },
     {
       "src": "/api/v1/empleados(.*)",
-      "dest": "/backend/index.js"
+      "dest": "/back-end/index.js"
     }
   ]
 }
