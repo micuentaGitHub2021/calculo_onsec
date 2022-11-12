@@ -1,0 +1,38 @@
+### new product
+POST http://localhost:3000/api/v1/empleados
+Content-Type: application/json
+
+{
+    "name":"Omar",
+    "dpi":"2911975070704",
+    "p1":3,
+    "p2":2,
+    "p3":4,
+    "p4":5,
+    "p5":3,
+    "jbl":0,
+    "tiempo_trabajo":5
+    }
+
+### get empleados
+GET  http://localhost:3000/api/v1/empleados
+
+
+
+
+### new empleados
+PUT  http://localhost:3000/api/v1/product/618064241566137cbad4c0db
+Content-Type: application/json
+
+{
+    "name":"prubaact2",
+    "description":"product description2 act",
+    "imgUrl":"url-image-product2act",
+    "amount":15,
+    "price":1.4,
+    "category":"escolaresact"
+}
+
+
+### delete products
+DELETE http://localhost:3000/api/v1/product/6180671dae6226b9b4b26e5c
