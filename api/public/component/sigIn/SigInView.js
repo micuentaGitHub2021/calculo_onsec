@@ -4,7 +4,7 @@ export function SigInView(){
     $sigIn.classList.add('home')
     $sigIn.innerHTML=`
     <div class="page-title animated fadeInDown">
-        <h3>LIBRERIA TZ'OLOJYA'</h3>
+        <h3>CALCULO DE JUBILACION ONSEC</h3>
     </div>
     <div class="home-sigin animated fadeInDown">
       <div>
@@ -22,7 +22,7 @@ export function SigInView(){
         </form>
       </div>
       <div>
-        <img src="http://4.bp.blogspot.com/-QPVayCz0saw/Vg5DW9wusxI/AAAAAAAAAJk/WzfN3dRJeuU/s1600/Articulos%2Bvarios%2Bde%2Bpapeleria.png" class="img-fluid" alt="img">
+        <img src="https://mercedes-hernandez.com/wp-content/uploads/2020/04/pensio%CC%81n-por-jubilacio%CC%81n.png" class="img-fluid" alt="img">
       </div>
     <div>`;
     function initSigIn(){
